@@ -1,0 +1,20 @@
+# API secrets
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local patient databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Gemini API test script
+test_gemini.py
+
+# Local environment files
+.DS_Store
